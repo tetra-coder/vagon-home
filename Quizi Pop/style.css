@@ -1,0 +1,21 @@
+body {
+    font-family: Inter;
+    text-align: center;
+    background: rgb(26, 26, 26);
+    color: white;
+}
+button {
+    font-family: Inter;
+    border: none;
+    background: rgb(100, 0, 255);
+    color: white;
+    padding: 10px; /* Don't use width and height, use padding and margin. */
+    cursor: pointer;
+}
+#second,#third,#fourth {
+    display: none;
+}
+select {
+    border-radius: 5px;
+    font-family: Inter;
+}
