@@ -1,0 +1,28 @@
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    font-family: Lora, serif;
+    overflow: hidden;
+
+}
+div {
+    width: 80vw;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+}
+a:link, a:visited {
+    color: #38488f;
+}
+input {
+    font-family: monospace;
+}
+@media (max-width: 700px) {
+    div {
+        margin: 0 auto;
+        width: auto;
+    }
+}
