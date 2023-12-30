@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+        <title>Quizi Pop</title>
+    </head>
+    <body>
+        <h1>Quizi Pop!</h1>
+        <button id = "how">How?</button>
+        <div id = "second">
+            <p>Solve the following top 3 problems correctly and earn an avatar!</p>
+            <button id = "play">Play!</button>
+        </div>
+        <div id = "third">
+            Who made efforts to ban slavery from the US?
+            <select id = "Q1" class = "Q">
+                <option value = "O1">John Adams</option>
+                <option value = "O2">Joames Monroe</option>
+                <option value = "O3">Abraham Lincoln</option>
+                <option value = "O4">George Washington</option>
+            </select><br>
+            When was Twitter created?
+            <select id = "Q2" class = "Q">
+                <option value = "O1">2000</option>
+                <option value = "O2">2006</option>
+                <option value = "O3">2002</option>
+                <option value = "O4">2008</option>
+            </select><br>
+            How much more space does SRAM take than DRAM?
+            <select id = "Q3" class = "Q">
+                <option value = "O1">2</option>
+                <option value = "O2">5</option>
+                <option value = "O3">3</option>
+            </select>
+            <button id = "check">Check</button>
+        </div>
+        <div id = "fourth">
+            <p id = "result"></p>
+            <button onclick = "location.reload()">Try again</button>
+        </div>
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
